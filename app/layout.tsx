@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
   title: "Kyran Janssen",
   authors: {
-    name: "chensokheng",
+    name: "Kyran Janssen",
   },
 
   description:
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     title: "Kyran Janssen",
     description:
       "Based in Abu Dhabi, I'm a Front-end developer passionate for building modern web applications that users love.",
-    url: "https://next-supabase-vote.vercel.app/",
-    siteName: "Kyrann Janssen",
+    url: "https://kyran.info/",
+    siteName: "Kyran Janssen",
     images: "/portfolio.png",
     type: "website",
   },
