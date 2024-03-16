@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: "export",
+  //  comment this shit out if wanting to run npm run build
+  output: "export",
 };
 
 export default nextConfig;

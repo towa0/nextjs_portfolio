@@ -12,6 +12,7 @@ import {
   SiMongodb,
   SiGit,
   SiVite,
+  SiThreedotjs,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -20,6 +21,12 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Apple iPhone 15 landing page",
+      tech: [SiVite, SiReact, SiThreedotjs, SiTailwindcss],
+      link: "https://apple-clone-vert.vercel.app/",
+      cover: "/apple_clone.png",
+    },
     {
       title: "Threads Clone (Breads)",
       tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb],
@@ -60,7 +67,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {projects.map((project, index) => {
           return (
-            <Link href={project.link} key={index}>
+            <Link href={project.link} key={index} target="_blank" rel="noopener noreferrer">
               <>
                 <DirectionAwareHover
                   imageUrl={project.cover}

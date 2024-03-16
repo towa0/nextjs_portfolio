@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import Title from "./Title";
@@ -15,6 +15,7 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiGit,
+  
 } from "react-icons/si";
 
 export default function Skills() {
