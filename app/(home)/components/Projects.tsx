@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: "Apple iPhone 15 landing page",
       tech: [SiVite, SiReact, SiThreedotjs, SiTailwindcss],
-      link: "https://apple-clone-vert.vercel.app/",
+      link: "https://apple-frontend-clone.vercel.app/",
       cover: "/apple_clone.png",
     },
     {
@@ -67,7 +67,12 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {projects.map((project, index) => {
           return (
-            <Link href={project.link} key={index} target="_blank" rel="noopener noreferrer">
+            <Link
+              href={project.link}
+              key={index}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <>
                 <DirectionAwareHover
                   imageUrl={project.cover}
