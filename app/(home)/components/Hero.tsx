@@ -15,7 +15,7 @@ export default function Hero() {
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {
-            "Based in Abu Dhabi, I'm a Front-end developer passionate for building modern web applications that users love."
+            "Based in Rotterdam, I'm a Front-end developer passionate for building modern web applications that users love."
           }
         </p>
         <Link

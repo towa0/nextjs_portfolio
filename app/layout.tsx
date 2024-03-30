@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Based in Abu Dhabi, I'm a Front-end developer passionate for building modern web applications that users love.",
+    "Based in Rotterdam, I'm a Front-end developer passionate for building modern web applications that users love.",
   openGraph: {
     title: "Kyran Janssen",
     description:
-      "Based in Abu Dhabi, I'm a Front-end developer passionate for building modern web applications that users love.",
+      "Based in Rotterdam, I'm a Front-end developer passionate for building modern web applications that users love.",
     url: "https://kyran.info/",
     siteName: "Kyran Janssen",
     images: "/portfolio.png",
