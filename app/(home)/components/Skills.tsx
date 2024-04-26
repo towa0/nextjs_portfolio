@@ -15,7 +15,7 @@ import {
   SiNodedotjs,
   SiMongodb,
   SiGit,
-  
+  SiExpress,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -55,6 +55,10 @@ export default function Skills() {
     {
       text: "NodeJS",
       icon: SiNodedotjs,
+    },
+    {
+      text: "ExpressJS",
+      icon: SiExpress,
     },
     {
       text: "MongoDB",

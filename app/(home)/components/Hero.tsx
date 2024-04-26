@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="min-h-[60vh] flex items-center justify-between lg:flex-row flex-col-reverse lg:gap-0 gap-14 animate-move-up">
       <div className="space-y-10 text-center lg:text-left">
         <h1 className="text-4xl lg:text-7xl font-bold">
-          Nice to meet you! 👋 <br />
+          Nice to meet you! <br />
           <span className="underline underline-offset-8 decoration-blue-500">
             {"I'm Kyran."}
           </span>
@@ -36,11 +36,6 @@ export default function Hero() {
             <div className="w-32 h-32 rounded-full bg-green-500"></div>
           </div>
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
-        </div>
-        <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
-          <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-            <p>📢 Available for Work</p>
-          </MovingBorderBtn>
         </div>
       </div>
     </div>

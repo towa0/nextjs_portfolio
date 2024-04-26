@@ -1,18 +1,17 @@
 import React from "react";
 import {
   SiReact,
-  SiHtml5,
-  SiCss3,
   SiJavascript,
   SiTypescript,
   SiPython,
   SiNextdotjs,
   SiTailwindcss,
-  SiNodedotjs,
   SiMongodb,
-  SiGit,
+  SiExpress,
   SiVite,
   SiThreedotjs,
+  SiRailway,
+  SiSqlite,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -34,14 +33,36 @@ export default function Projects() {
       cover: "/threads_clone.png",
     },
     {
+      title: "Zenno",
+      tech: [
+        SiVite,
+        SiReact,
+        SiJavascript,
+        SiTailwindcss,
+        SiExpress,
+        SiSqlite,
+        SiRailway,
+      ],
+      link: "https://zenno-ten.vercel.app/",
+      cover: "/ZennoImg.png",
+    },
+    {
       title: "Brainwave",
       tech: [SiVite, SiReact, SiJavascript, SiTailwindcss],
       link: "https://brainwaveai-lake.vercel.app/",
       cover: "/Brainwave.png",
     },
     {
-      title: "Elektrische Lease",
-      tech: [SiReact, SiJavascript, SiPython, SiTailwindcss, SiMongodb],
+      title: "Elektrische-Lease",
+      tech: [
+        SiReact,
+        SiJavascript,
+        SiPython,
+        SiTailwindcss,
+        SiMongodb,
+        SiExpress,
+        SiRailway,
+      ],
       link: "https://elektrische-lease.nl/",
       cover: "/elektrische-lease.png",
     },
@@ -58,6 +79,7 @@ export default function Projects() {
       cover: "/teslaclone.png",
     },
   ];
+
   return (
     <div className="py-10 p-5 sm:p-0">
       <Title
