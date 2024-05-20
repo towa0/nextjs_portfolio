@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   icons: {
-    icon: "/facicon.ico",
+    icon: "../public/kyranportfolioLogo.jpeg",
   },
   metadataBase: new URL("https://kyran.info/"),
 
