@@ -12,6 +12,7 @@ import {
   SiThreedotjs,
   SiRailway,
   SiSqlite,
+  SiOpenai,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -31,6 +32,21 @@ export default function Projects() {
       tech: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss, SiMongodb],
       link: "https://breads-mu.vercel.app/sign-in?redirect_url=https%3A%2F%2Fbreads-mu.vercel.app%2F",
       cover: "/threads_clone.png",
+    },
+    {
+      title: "Motorverzekeringen Vergelijk",
+      tech: [
+        SiVite,
+        SiReact,
+        SiJavascript,
+        SiTailwindcss,
+        SiExpress,
+        SiSqlite,
+        SiOpenai,
+        SiRailway,
+      ],
+      link: "https://motorverzekeringvergelijken.vercel.app/",
+      cover: "/motorverzekeringen.png",
     },
     {
       title: "Zenno",
