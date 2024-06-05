@@ -45,7 +45,7 @@ export default function Projects() {
         SiOpenai,
         SiRailway,
       ],
-      link: "https://motorverzekeringvergelijken.vercel.app/",
+      link: "https://motorverzekeringen-vergelijk.nl/",
       cover: "/motorverzekeringen.png",
     },
     {
